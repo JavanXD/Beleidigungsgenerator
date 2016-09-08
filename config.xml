@@ -3,10 +3,9 @@
   <description>Schimpfwörter und Beleidigungen generieren.</description>
   <author href="https://javan.de" email="support@javan.de">Javan Rasokat</author>
   <content src="index.html"/>
-  <preference name="prerendered-icon" value="true"/>
   <preference name="DisallowOverscroll" value="true"/>
   <preference name="android-minSdkVersion" value="14"/>
-  <icon src="icon.png" gap:role="default" />
+  <icon src="icon.png" />
   <plugin name="cordova-plugin-vibration" source="npm" spec="~2.1.0"/>
   <platform name="android">
     <icon src="www/res/icons/android/drawable-ldpi-icon.png" density="ldpi"/>
