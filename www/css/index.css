@@ -34,7 +34,7 @@ body {
     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
     font-size:1.3em;
 	line-height:1.4em;
-    height:400px;
+    height:100%;
     margin:0px;
     padding:0px;
     width:100%;
@@ -47,7 +47,8 @@ body center{
 
 /* Portrait layout (default) */
 .app {
-	max-width:300px;
+	padding-top:80px;
+	max-width:400px;
 }
 
 #button {
