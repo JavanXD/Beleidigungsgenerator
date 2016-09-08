@@ -34,21 +34,16 @@ body {
     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
     font-size:1.3em;
 	line-height:1.4em;
-    height:100%;
-    margin:0px;
+
+    margin:0px auto;
     padding:0px;
+	height:100%;
     width:100%;
 	display: table;
 }
 body center{
     display: table-cell;
     vertical-align: middle;
-}
-
-/* Portrait layout (default) */
-.app {
-	padding-top:80px;
-	max-width:400px;
 }
 
 #button {
@@ -63,8 +58,18 @@ body center{
 }
 
 #result {
-	padding-top:20px;
+	position:fixed;
+	bottom:20%;
+	left:0px;
+	text-align:center;
+	width:100%;
 }
+
+/* Portrait layout (default) */
+.app {
+	padding-top:60px;
+}
+
 
 /* Landscape layout (with min-width) */
 @media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
@@ -72,7 +77,6 @@ body center{
 
     }
 }
-
 
 .blink {
     animation:fade 3000ms infinite;

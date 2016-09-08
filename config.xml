@@ -1,7 +1,7 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.javan.beleidigungsgenerator" version="1.0.0">
   <name>Beleidigungsgenerator</name>
   <description>Schimpfwörter und Beleidigungen generieren.</description>
-  <author href="https://Javan.de" email="support@javan.de">Javan Rasokat</author>
+  <author href="https://javan.de" email="support@javan.de">Javan Rasokat</author>
   <content src="index.html"/>
   <preference name="prerendered-icon" value="true"/>
   <preference name="DisallowOverscroll" value="true"/>
