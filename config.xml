@@ -7,7 +7,7 @@
   <preference name="DisallowOverscroll" value="true"/>
   <preference name="android-minSdkVersion" value="14"/>
   <plugin name="cordova-plugin-vibration" source="npm" spec="~2.1.0"/>
-  <plugin name="cordova-plugin-tts" spec="1" source="pgb" />
+  <gap:plugin name="cordova-plugin-tts" source="npm" />
   
   <icon src="icon.png" gap:role="default" />
   <icon gap:platform="webos" src="www/res/icons/ios/icon-60.png" />
