@@ -140,6 +140,7 @@
 			
 			if(speakEnabled){
 				document.getElementById('speakImage').src = "./img/tts.png";
+				speak(document.getElementById('result').innerHTML);
 			}else{
 				document.getElementById('speakImage').src = "./img/tts-disabled.png";
 				TTS.speak("");
