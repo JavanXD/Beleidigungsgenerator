@@ -121,7 +121,7 @@
 		<div class="app">
 			<img src="./img/moskitos.gif" style="height:60px;width:auto;"/>
 			<div id="button" onclick="generator();vibration();"></div>
-			<div id="result">Dr&uuml;ck auf den Schei&szlig;haufen!</div>
+			<div id="result"><i>Dr&uuml;ck auf den Schei&szlig;haufen!</i></div>
 			<div id="speak" onclick="changeSpeak();"><img src="./img/tts-disabled.png" id="speakImage"/></div>
 		</div>
 	</center>
@@ -142,6 +142,7 @@
 				document.getElementById('speakImage').src = "./img/tts.png";
 			}else{
 				document.getElementById('speakImage').src = "./img/tts-disabled.png";
+				TTS.speak("");
 			}
 		}
 		
