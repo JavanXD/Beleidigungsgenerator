@@ -65,6 +65,10 @@ body center{
 	text-align:center;
 	width:100%;
 }
+#speakImage {
+	height:40px;
+	width:auto;
+}
 
 #result {
 	position:fixed;
